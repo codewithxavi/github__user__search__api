@@ -1,0 +1,64 @@
+/* *Dark theme classes */
+body {
+  background-color: #d3cfd6;
+}
+
+.header__title {
+  color: #474747;
+}
+
+
+.theme i {
+  color: #474747;
+}
+
+.theme__switch {
+  color: #474747;
+}
+
+.search {
+  background-color: white;
+  box-shadow: 3px 3px 5px 2px rgb(206, 189, 189);
+}
+
+.form__input::placeholder {
+  color: #474747;
+}
+
+.form__input {
+  color: #474747;
+}
+
+.form__icon {
+  color: #0079ff;
+}
+
+.result {
+  background-color: white;
+  box-shadow: 3px 3px 5px 2px rgb(206, 189, 189);
+}
+
+.name,
+.joined {
+  color: #474747;
+}
+
+.bio {
+  color: #474747;
+}
+
+.stats {
+  background-color: #d3cfd6;
+}
+
+.stats>* {
+  color: #474747;
+}
+
+.link {
+  color: #474747;
+}
+
+.link i {
+  color: #474747;
+}

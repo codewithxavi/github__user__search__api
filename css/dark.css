@@ -1,0 +1,57 @@
+/* *Dark theme classes */
+body {
+  background-color: hsl(224, 38%, 13%);
+}
+
+.header__title {
+  color: white;
+}
+
+
+.theme i {
+
+  color: white;
+}
+
+.theme__switch {
+  color: white;
+
+}
+
+.search {
+  background-color: hsl(223, 41%, 20%);
+  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, .7);
+}
+
+.form__input {
+  color: lightgray;
+}
+
+.form__icon {
+  color: #0079ff;
+}
+
+.result {
+  background-color: hsl(223, 41%, 20%);
+  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, .7);
+}
+
+.bio {
+  color: lightgray;
+}
+
+.stats {
+  background: hsl(226, 37%, 13%);
+}
+
+.stats>small {
+  color: lightgray;
+}
+
+.link {
+  color: lightgray;
+}
+
+.link i {
+  color: white;
+}
