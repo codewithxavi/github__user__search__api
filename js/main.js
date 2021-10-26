@@ -12,6 +12,7 @@ const themeSwitch = document.querySelector(".theme__switch")
 const themeCSS = document.querySelector(".theme-css")
 const themeName = document.querySelector(".theme__name")
 
+const toggleIcon = document.getElementById('toggle-icon');
 
 //*Listen various events
 
@@ -115,11 +116,17 @@ function switchTheme() {
   if (dark) {
     themeCSS.setAttribute("href", "css/light.css")
     themeName.textContent = "LIGHT"
-    themeSwitch.classList.remove("fa-sun")
   } else {
     themeCSS.setAttribute("href", "css/dark.css")
     themeName.textContent = "DARK"
-    themeSwitch.classList.remove("fa-sun")
   }
 }
 
+
+themeSwitch.addEventListener('click', () => {
+  if (toggleIcon.classList.contains('fa-moon')) {
+    toggleIcon.classList.replace('fa-moon', 'fa-sun');
+  } else {
+    toggleIcon.classList.replace('fa-sun', 'fa-moon');
+  }
+});
